@@ -32,7 +32,7 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
-  margin-top: 32px;
+  margin-top: 64px;
   gap: 16px;
   background: rgba(0, 0, 0, 0.3);
 }
@@ -129,6 +129,8 @@ input:invalid {
   font-size: 1rem;
   font-weight: bold;
   cursor: pointer;
+
+  align-self: flex-start;
 }
 
 #CTA:hover {
@@ -150,6 +152,5 @@ input:invalid {
   gap: 24px;
   padding: 0 32px;
   font-size: 1rem;
-  font-weight: bold;
   color: #444;
 }
