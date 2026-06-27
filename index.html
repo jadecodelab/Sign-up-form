@@ -1,0 +1,107 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Sign-up Form</title>
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;700;900&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div class="container">
+      <aside class="left-panel">
+        <div id="logo">
+          <img src="images/odin-lined.png" alt="Odin logo" />
+          <h1>ODIN</h1>
+        </div>
+
+        <div id="photo-credit">
+          <a
+            href="https://unsplash.com/illustrations/a-camera-captures-a-beautiful-beach-scene-dtQlBDlp-Lc?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText"
+            >Illustration</a
+          >
+          by
+          <a
+            href="https://unsplash.com/@publicdomainvectors/illustrations?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText"
+            >Public domain vectors</a
+          >
+          on
+          <a
+            href="https://unsplash.com/illustrations?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText"
+            >Unsplash</a
+          >
+        </div>
+      </aside>
+      <main class="right-panel">
+        <div class="intro">
+          <p class="title">
+            Welcome to my Sign-up Form project, built as part of The Odin
+            Project.
+          </p>
+          <p>
+            Fill out the form below to create your account and experience a
+            clean, responsive user interface.
+          </p>
+        </div>
+        <div class="form-section">
+          <h2>Let's do this!</h2>
+          <form action="" method="post">
+            <div class="left-column">
+              <p>
+                <label for="first-name">FIRST NAME</label>
+                <input type="text" id="first-name" name="first-name" />
+              </p>
+
+              <p>
+                <label for="mail">EMAIL:</label>
+                <input type="email" id="mail" name="email" />
+              </p>
+              <p>
+                <label for="password">PASSWORD</label>
+                <input
+                  type="password"
+                  id="password"
+                  name="password"
+                  require
+                  minlength="8"
+                />
+              </p>
+            </div>
+            <div class="right-column">
+              <p>
+                <label for="last-name">LAST NAME</label>
+                <input type="text" id="last-name" name="last-name" />
+              </p>
+
+              <p>
+                <label for="phone">PHONE NUMBER</label>
+                <input type="tel" id="phone" name="phone" />
+              </p>
+
+              <p>
+                <label for="confirm-password">CONFIRM PASSWORD</label>
+                <input
+                  type="password"
+                  id="confirm-password"
+                  name="confirm-password"
+                />
+              </p>
+            </div>
+          </form>
+        </div>
+        <div class="bottom-section">
+          <button id="CTA">Create Account</button>
+          <p>
+            Already have an account?
+            <a>Log in</a>
+          </p>
+        </div>
+      </main>
+    </div>
+  </body>
+</html>
