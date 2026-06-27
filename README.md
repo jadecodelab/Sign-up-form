@@ -8,8 +8,6 @@ A desktop sign-up page built as part of **The Odin Project – Intermediate HTML
 
 ## Preview
 
-<h2 align="center">Preview</h2>
-
 <p align="center">
   <img src="images/screenshot.png" alt="Sign-up Form Preview" width="800">
 </p>
