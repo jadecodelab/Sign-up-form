@@ -8,11 +8,11 @@ A desktop sign-up page built as part of **The Odin Project – Intermediate HTML
 
 ## Preview
 
-> Add a screenshot here.
+<h2 align="center">Preview</h2>
 
-```md
-![Sign-up Form](screenshot.png)
-```
+<p align="center">
+  <img src="images/screenshot.png" alt="Sign-up Form Preview" width="800">
+</p>
 
 ## Built With
 
